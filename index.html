@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div >
+      <div class="form"><img src="./icon.svg" alt="фон" height="50%" />
+    <p class="kreativ">Kreativ</p>
+    <p class="form_text_start">Let’s get you started</p>
+    <section class="forms">
+        <form autocomplete="on">
+           <p> <label for="name">Full name</label>
+            <input  class="inputs" type="text" id="name" placeholder="Ade Tiger"></p>
+             <p>
+            <label for="email" >Email address</label>
+           <input class="inputs" type="email" id="email" placeholder="yourname@email.com"></p>
+            <p>
+            <label for="phone">Phone number</label>
+           <input class="inputs" type="tel" id="phone" placeholder="+234 800 2738 9700"></p>
+            <p>
+            <label for="pass">Create password</label>
+                <input class="inputs" type="password" id="pass" placeholder="**********">
+                <br>
+                <span class="pass">Password must contain a minimum of 8 characters <br>
+                    Password must contain at least one symbol e.g. @, !</span>
+            </p>
+
+           <p><label for="loc">Location <span class="pass">(Optional)</span></label>
+            <select class="inputs" name="location" id="loc">
+                <option value="Kyiv">Kyiv</option>
+                <option value="London">London</option>
+                <option value="Berlin">Berlin</option>
+                <option value="New York">New York</option>
+            </select></p> 
+          <p><input type="button" value="Sign Up"></p>  
+        </form>
+         <div class="login_text">Already a user? <a href="https://www.youtube.com/" target="_blank">Login</a></div>
+    </section>
+    </div>
+
+      <div class="promo">
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+        </ul>
+        <div>
+          <p class="quotation">Creativity is intelligence having fun
+            <p>- Albert Einstein</p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
